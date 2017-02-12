@@ -1,0 +1,35 @@
+/* line 2, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+.intro {
+  position: relative;
+  height: 100vh; }
+  /* line 5, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+  .intro h1 {
+    color: #222;
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+    /* line 12, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+    .intro h1 strong {
+      text-decoration: underline; }
+  /* line 14, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+  .intro .scroll-down {
+    margin-top: 20px; }
+    /* line 16, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+    .intro .scroll-down a {
+      color: #000; }
+      /* line 18, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+      .intro .scroll-down a:hover {
+        text-decoration: none; }
+
+@media(max-width: 1000px) {
+  /* line 22, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+  .intro {
+    height: auto; }
+    /* line 24, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+    .intro h1 {
+      font-size: 2em; }
+    /* line 27, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+    .intro .intro-description .subheadline, .intro .intro-description p {
+      font-size: 2em; } }

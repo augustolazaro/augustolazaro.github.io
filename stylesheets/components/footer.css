@@ -1,0 +1,8 @@
+/* line 2, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/footer.sass */
+footer {
+  padding: 30px 0; }
+  /* line 4, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/footer.sass */
+  footer > p {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center; }

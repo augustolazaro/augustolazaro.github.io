@@ -1,0 +1,50 @@
+/* line 2, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/menu.sass */
+.menu-toggler {
+  position: fixed;
+  top: 50px;
+  right: 100px;
+  z-index: 1000; }
+
+/* line 10, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/menu.sass */
+.navigation {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  transform: translate3d(-300px, 0, 0);
+  top: 0;
+  background-color: #ccc;
+  z-index: 20;
+  transition: all 0.3s ease-out; }
+  /* line 19, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/menu.sass */
+  .navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    /* line 23, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/menu.sass */
+    .navigation ul li {
+      padding: 20px 40px;
+      position: relative; }
+      /* line 26, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/menu.sass */
+      .navigation ul li:after {
+        content: "";
+        position: absolute;
+        left: calc(50% - 30px);
+        bottom: 0;
+        transform: translateX(0) translateY(0) scaleX(0);
+        height: 1px;
+        background-color: #000;
+        width: 60px;
+        transition: transform 0.2s ease; }
+      /* line 36, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/menu.sass */
+      .navigation ul li:hover:after {
+        transform: translateX(0) translateY(0) scaleX(1); }
+      /* line 38, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/menu.sass */
+      .navigation ul li a {
+        font-size: 1.8em; }
+        /* line 40, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/menu.sass */
+        .navigation ul li a:hover {
+          text-decoration: none; }
+
+/* line 43, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/menu.sass */
+.show-menu {
+  transform: translate3d(0, 0, 0); }
