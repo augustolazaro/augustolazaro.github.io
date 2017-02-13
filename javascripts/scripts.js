@@ -5,5 +5,4 @@ $(document).ready(function() {
 
     var slider = document.querySelector(".Wallop");
     var wallop = new Wallop(slider);
-
 });

@@ -1,0 +1,19 @@
+/* line 1, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/about.sass */
+#about {
+  overflow: hidden; }
+  /* line 4, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/about.sass */
+  #about .description .about-image {
+    width: 100%;
+    object-fit: cover; }
+  /* line 7, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/about.sass */
+  #about .description .about-desc {
+    padding: 200px 50px; }
+    /* line 9, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/about.sass */
+    #about .description .about-desc a {
+      color: #FE7E17;
+      font-weight: bold; }
+
+@media screen and (min-width: 992px) {
+  /* line 14, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/about.sass */
+  #about {
+    max-height: 100vh; } }

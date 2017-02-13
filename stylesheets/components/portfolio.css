@@ -1,51 +1,54 @@
 /* line 4, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
-#portfolio {
+#works {
   height: auto;
   position: relative; }
   /* line 7, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
-  #portfolio .portfolio-item {
+  #works .portfolio-item ~ .portfolio-item {
+    padding: 30px 0; }
+  /* line 9, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+  #works .portfolio-item {
     height: 600px;
-    padding: 30px 0;
+    padding: 50px 0;
     overflow: hidden;
     color: white; }
-    /* line 12, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
-    #portfolio .portfolio-item h3 {
+    /* line 14, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+    #works .portfolio-item h3 {
       font-size: 2.4em;
       font-weight: bold; }
-    /* line 15, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
-    #portfolio .portfolio-item h4 {
+    /* line 17, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+    #works .portfolio-item h4 {
       margin-top: 0;
       margin-bottom: 30px; }
-    /* line 18, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
-    #portfolio .portfolio-item .app-print {
+    /* line 20, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+    #works .portfolio-item .app-print {
       box-shadow: 3px 10px 18px #222;
       max-width: 100%;
       width: 100%; }
 
-/* line 23, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 25, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #portfolio-intro {
   background-color: black; }
 
-/* line 25, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 27, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #casare {
   background-color: #37C6C1; }
 
-/* line 27, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 29, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #cultive {
   background-color: #FDD100; }
 
-/* line 29, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 31, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #astro {
   background-color: #2BB87C; }
 
-/* line 31, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 33, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #openship {
   background-color: #3498DB; }
 
-/* line 33, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 35, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #csa {
   background-color: #83B23D; }
 
-/* line 35, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 37, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #mea {
   background-color: #CC1313; }

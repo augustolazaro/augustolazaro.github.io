@@ -6653,54 +6653,91 @@ body, html {
   margin: 0;
   position: relative;
   font-family: "Raleway", sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  background-color: #000;
+  color: #EFEFEF;
+  overflow-x: hidden; }
 
 @media(min-width: 1200px) {
-  /* line 16, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
+  /* line 19, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
   body, html {
     font-size: 24px;
     position: relative;
     overflow-x: hidden; } }
-/* line 21, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
+/* line 24, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
 h1, h2, h3, h4, h5, span, p, a {
   font-family: "Raleway", sans-serif; }
 
-/* line 24, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
-.intro, #contact {
-  padding: 40px 30px; }
-
-@media(min-width: 1200px) {
-  /* line 28, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
-  .intro, #contact {
-    padding: 50px 100px; } }
-/* line 33, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
+/* line 29, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
 .section-headline {
   font-size: 5rem;
   font-weight: 900; }
 
-/* line 37, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
+/* line 33, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
 .vertical-center {
   display: flex;
   justify-content: center;
   flex-direction: column; }
 
-/* line 42, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
+/* line 38, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
 .no-padding {
   padding: 0; }
 
-/* line 46, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
+/* line 42, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
 .main {
   position: relative;
   transform: translate3d(0);
   transition: all 0.3s ease-out; }
 
+/* line 47, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
+.section-title {
+  position: relative;
+  z-index: 1;
+  padding-top: 70px; }
+  /* line 51, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
+  .section-title:after {
+    position: absolute;
+    width: 150%;
+    height: 30%;
+    left: -25%;
+    background-color: #000;
+    content: "";
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    z-index: -1; }
+  /* line 63, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/_base.sass */
+  .section-title .title {
+    font-size: 3em;
+    font-weight: 900; }
+
+/* line 1, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/about.sass */
+#about {
+  overflow: hidden; }
+  /* line 4, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/about.sass */
+  #about .description .about-image {
+    width: 100%;
+    object-fit: cover; }
+  /* line 7, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/about.sass */
+  #about .description .about-desc {
+    padding: 200px 50px; }
+    /* line 9, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/about.sass */
+    #about .description .about-desc a {
+      color: #FE7E17;
+      font-weight: bold; }
+
+@media screen and (min-width: 992px) {
+  /* line 14, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/about.sass */
+  #about {
+    max-height: 100vh; } }
 /* line 2, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
 #contact {
   height: 100vh;
   position: relative; }
   /* line 5, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
   #contact h3 {
-    font-size: 2.8em;
+    font-size: 3.8em;
     text-transform: uppercase;
     line-height: 1;
     margin: 0;
@@ -6711,39 +6748,38 @@ h1, h2, h3, h4, h5, span, p, a {
     margin: 0; }
     /* line 14, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .email a {
-      color: #2ecc71;
+      color: #95a5a6;
       text-decoration: none;
       font-weight: bolder; }
   /* line 18, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
   #contact .social-networks {
-    margin-top: 80px;
-    color: #666; }
-    /* line 22, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    margin-top: 80px; }
+    /* line 21, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .social-networks p a {
       text-decoration: none;
       font-weight: bold; }
-    /* line 25, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 24, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .social-networks p .facebook {
       color: #3b5998; }
-    /* line 27, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 26, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .social-networks p .linkedin {
       color: #006699; }
-    /* line 29, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 28, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .social-networks p .github {
-      color: #000; }
+      color: #666; }
 
 @media(max-width: 980px) {
-  /* line 33, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+  /* line 32, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
   #contact {
     height: auto; }
-    /* line 35, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 34, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact h3 {
       font-size: 1.8em;
       margin: 0; }
-    /* line 38, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 37, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .email {
       font-size: 1em; }
-    /* line 40, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 39, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .social-networks {
       margin-top: 50px;
       color: #666; } }
@@ -6759,36 +6795,42 @@ footer {
 /* line 2, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
 .intro {
   position: relative;
-  height: 100vh; }
-  /* line 5, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+  min-height: 100vh;
+  padding: 30px 0; }
+  /* line 6, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
   .intro h1 {
-    color: #222;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 900;
     line-height: 1.1;
     text-transform: uppercase;
     margin-bottom: 40px; }
     /* line 12, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
     .intro h1 strong {
-      text-decoration: underline; }
-  /* line 14, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+      text-decoration: underline;
+      font-weight: 900;
+      color: #95a5a6; }
+  /* line 17, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+  .intro a {
+    color: #2980b9;
+    font-weight: bold; }
+  /* line 21, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
   .intro .scroll-down {
     margin-top: 20px; }
-    /* line 16, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+    /* line 23, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
     .intro .scroll-down a {
       color: #000; }
-      /* line 18, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+      /* line 25, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
       .intro .scroll-down a:hover {
         text-decoration: none; }
 
 @media(max-width: 1000px) {
-  /* line 22, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+  /* line 29, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
   .intro {
     height: auto; }
-    /* line 24, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+    /* line 31, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
     .intro h1 {
       font-size: 2em; }
-    /* line 27, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
+    /* line 34, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/intro.sass */
     .intro .intro-description .subheadline, .intro .intro-description p {
       font-size: 2em; } }
 /* line 2, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/menu.sass */
@@ -6843,53 +6885,56 @@ footer {
   transform: translate3d(0, 0, 0); }
 
 /* line 4, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
-#portfolio {
+#works {
   height: auto;
   position: relative; }
   /* line 7, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
-  #portfolio .portfolio-item {
+  #works .portfolio-item ~ .portfolio-item {
+    padding: 30px 0; }
+  /* line 9, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+  #works .portfolio-item {
     height: 600px;
-    padding: 30px 0;
+    padding: 50px 0;
     overflow: hidden;
     color: white; }
-    /* line 12, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
-    #portfolio .portfolio-item h3 {
+    /* line 14, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+    #works .portfolio-item h3 {
       font-size: 2.4em;
       font-weight: bold; }
-    /* line 15, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
-    #portfolio .portfolio-item h4 {
+    /* line 17, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+    #works .portfolio-item h4 {
       margin-top: 0;
       margin-bottom: 30px; }
-    /* line 18, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
-    #portfolio .portfolio-item .app-print {
+    /* line 20, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+    #works .portfolio-item .app-print {
       box-shadow: 3px 10px 18px #222;
       max-width: 100%;
       width: 100%; }
 
-/* line 23, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 25, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #portfolio-intro {
   background-color: black; }
 
-/* line 25, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 27, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #casare {
   background-color: #37C6C1; }
 
-/* line 27, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 29, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #cultive {
   background-color: #FDD100; }
 
-/* line 29, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 31, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #astro {
   background-color: #2BB87C; }
 
-/* line 31, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 33, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #openship {
   background-color: #3498DB; }
 
-/* line 33, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 35, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #csa {
   background-color: #83B23D; }
 
-/* line 35, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
+/* line 37, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/portfolio.sass */
 #mea {
   background-color: #CC1313; }

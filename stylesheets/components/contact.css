@@ -4,7 +4,7 @@
   position: relative; }
   /* line 5, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
   #contact h3 {
-    font-size: 2.8em;
+    font-size: 3.8em;
     text-transform: uppercase;
     line-height: 1;
     margin: 0;
@@ -15,39 +15,38 @@
     margin: 0; }
     /* line 14, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .email a {
-      color: #2ecc71;
+      color: #95a5a6;
       text-decoration: none;
       font-weight: bolder; }
   /* line 18, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
   #contact .social-networks {
-    margin-top: 80px;
-    color: #666; }
-    /* line 22, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    margin-top: 80px; }
+    /* line 21, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .social-networks p a {
       text-decoration: none;
       font-weight: bold; }
-    /* line 25, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 24, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .social-networks p .facebook {
       color: #3b5998; }
-    /* line 27, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 26, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .social-networks p .linkedin {
       color: #006699; }
-    /* line 29, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 28, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .social-networks p .github {
-      color: #000; }
+      color: #666; }
 
 @media(max-width: 980px) {
-  /* line 33, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+  /* line 32, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
   #contact {
     height: auto; }
-    /* line 35, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 34, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact h3 {
       font-size: 1.8em;
       margin: 0; }
-    /* line 38, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 37, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .email {
       font-size: 1em; }
-    /* line 40, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
+    /* line 39, /home/augusto/projects/augustolazaro.github.io/source/stylesheets/components/contact.sass */
     #contact .social-networks {
       margin-top: 50px;
       color: #666; } }
